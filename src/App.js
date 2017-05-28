@@ -10,6 +10,25 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to React with Redux</h2>
         </div>
+        <div className="Todo-App">
+          <form>
+            <input type="text"/>
+          </form>
+          <div className="Todo-List">
+            <ul>
+              <li>
+                <input type="checkbox" /> Create Static UI
+              </li>
+              <li>
+                <input type="checkbox" /> Create Initial State
+              </li>
+              <li>
+                <input type="checkbox" /> Use State to Render UI
+              </li>
+            </ul>
+          </div>
+
+        </div>
       </div>
     );
   }
