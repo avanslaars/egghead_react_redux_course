@@ -15,7 +15,6 @@ class App extends Component {
         <div className="Todo-App">
           <TodoForm />
           <TodoList todos={this.props.todos} />
-
         </div>
       </div>
     );
