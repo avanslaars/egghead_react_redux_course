@@ -26,4 +26,19 @@ describe('Todo Reducer', () => {
     const result = reducer(startState, action)
     expect(result).toEqual(expectedState)
   })
+
+  test('updates current todo', () => {
+    const startState = {
+      todos: [],
+      currentTodo: ''
+    }
+
+    const expectedState = {
+      todos: [],
+      currentTodo: 'abc'
+    }
+
+    const result = reducer(startState, {type: 'CURRENT_UPDATE', payload: 'abc'})
+    expect(result).toEqual(expectedState)
+  })
 })
