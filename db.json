@@ -8,7 +8,7 @@
     {
       "id": 2,
       "name": "start server",
-      "isComplete": false
+      "isComplete": true
     },
     {
       "id": 3,
@@ -27,12 +27,12 @@
     },
     {
       "name": "New Todo",
-      "isComplete": false,
+      "isComplete": true,
       "id": 6
     },
     {
       "name": "Another Todo",
-      "isComplete": false,
+      "isComplete": true,
       "id": 7
     },
     {
