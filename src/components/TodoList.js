@@ -5,7 +5,7 @@ import {fetchTodos, toggleTodo} from '../reducers/todo'
 const TodoItem = ({id, name, isComplete, toggleTodo}) => (
   <li>
     <input type="checkbox"
-      defaultChecked={isComplete}
+      checked={isComplete}
       onChange={() => toggleTodo(id)} />
     {name}
   </li>
