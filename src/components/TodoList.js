@@ -8,7 +8,7 @@ const TodoItem = ({id, name, isComplete, toggleTodo, deleteTodo}) => (
       <button onClick={() => deleteTodo(id)}>X</button>
     </span>
     <input type="checkbox"
-      defaultChecked={isComplete}
+      checked={isComplete}
       onChange={() => toggleTodo(id)} />
     {name}
   </li>
